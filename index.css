@@ -1,0 +1,109 @@
+html{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  
+}
+body{
+  height: 99%;
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.main{
+  height: 100%;
+  width: 100%;
+  background-color: #121212;
+  border-radius: 5px;
+}
+
+#map, #pano{
+  border-style: solid;
+  border-width: 1px;
+}
+
+#map {
+  float: left;
+  height: 40%;
+  width: 50%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right-width: .5px;
+
+}
+
+#pano {
+  float: left;
+  height: 40%;
+  width: 50%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left-width: 0px;
+}
+
+
+#result{
+  height: 25%;
+  width: 90%;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#location, #distance, #totaldistance{
+    font-size: 20px;
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+}
+
+#location, #distance {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+
+#check, #next{
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  width: 200px;
+}
+
+#buttons, #info{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-family: Chalkduster, fantasy;
+  color: white;
+}
+
+#next{
+  margin-left: 100px;
+}
+
+
+#center{
+  text-align: center;
+}
+
+#totaldistance{
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+#round {
+  font-family: Chalkduster, fantasy;
+  font-size: 15px;
+  color: white;
+}
+
